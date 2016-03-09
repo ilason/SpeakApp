@@ -8,16 +8,22 @@
 
 import Foundation
 
-struct Message {
+class Message {
     
-    var username: String
-    var text: String
+    let conversationID: String
+    let text: String
+    let senderID: String
+    var sender: User?
+    
     var identifier: String?
+    var endpoint: String {
+        return "messages"
+    }
     
     
-    init(username: String, text: String, identifier: String? = nil) {
-        self.username = username
+    init(text: String, senderID: String, conversationID: String) {
         self.text = text
-        self.identifier = identifier
+        self.senderID = senderID
+        self.conversationID = conversationID
     }
 }

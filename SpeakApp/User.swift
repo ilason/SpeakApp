@@ -7,20 +7,16 @@
 //
 
 import Foundation
-struct User: Equatable {
-    var username: String = ""
-    var caption: String?
+class User {
+    let username: String
+    var conversationIDs: [String] = []
+    var conversations: [Conversation] = []
     var identifier: String?
-    
-    init(username: String, caption: String? = nil, uid: String?){
+    var endpoint: String {
+        return "users"
+    }
+    init(username: String) {
         self.username = username
-        self.caption = caption
-        self.identifier = uid
-        
     }
     
-}
-
-func ==(lhs: User, rhs: User) -> Bool {
-    return (lhs.username == rhs.username) && (lhs.identifier == rhs.identifier)
 }
