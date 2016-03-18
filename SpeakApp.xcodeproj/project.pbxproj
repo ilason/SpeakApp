@@ -24,6 +24,7 @@
 		E5174C981C8F8BB00016275A /* ChatPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5174C971C8F8BB00016275A /* ChatPickerViewController.swift */; };
 		E5174C9A1C8F8BEA0016275A /* ConversationPickerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5174C991C8F8BEA0016275A /* ConversationPickerTableViewController.swift */; };
 		E5174C9D1C8F8DF40016275A /* ConversationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5174C9C1C8F8DF40016275A /* ConversationTableViewController.swift */; };
+		E5818E4F1C91029600031E54 /* MessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5818E4E1C91029600031E54 /* MessageController.swift */; };
 		E5CA43ED1C8E1F9200EC7B1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CA43EC1C8E1F9200EC7B1C /* AppDelegate.swift */; };
 		E5CA43EF1C8E1F9200EC7B1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CA43EE1C8E1F9200EC7B1C /* ViewController.swift */; };
 		E5CA43F21C8E1F9200EC7B1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5CA43F01C8E1F9200EC7B1C /* Main.storyboard */; };
@@ -49,6 +50,7 @@
 		E5174C971C8F8BB00016275A /* ChatPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatPickerViewController.swift; sourceTree = "<group>"; };
 		E5174C991C8F8BEA0016275A /* ConversationPickerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationPickerTableViewController.swift; sourceTree = "<group>"; };
 		E5174C9C1C8F8DF40016275A /* ConversationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationTableViewController.swift; sourceTree = "<group>"; };
+		E5818E4E1C91029600031E54 /* MessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageController.swift; sourceTree = "<group>"; };
 		E5CA43E91C8E1F9200EC7B1C /* SpeakApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeakApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5CA43EC1C8E1F9200EC7B1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5CA43EE1C8E1F9200EC7B1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				E5174C901C8F8AA60016275A /* FirebaseController.swift */,
 				E5174C8A1C8F89F40016275A /* ConversationController.swift */,
 				E5174C7B1C8E6E390016275A /* UserController.swift */,
+				E5818E4E1C91029600031E54 /* MessageController.swift */,
 				E5174C9B1C8F8DB00016275A /* ViewControllers */,
 			);
 			name = Controllers;
@@ -236,6 +239,7 @@
 				E5CA43ED1C8E1F9200EC7B1C /* AppDelegate.swift in Sources */,
 				E5174C981C8F8BB00016275A /* ChatPickerViewController.swift in Sources */,
 				E5174C8D1C8F8A260016275A /* Conversation.swift in Sources */,
+				E5818E4F1C91029600031E54 /* MessageController.swift in Sources */,
 				E5174C941C8F8B470016275A /* LoginSignupPickerViewController.swift in Sources */,
 				E5174C8B1C8F89F40016275A /* ConversationController.swift in Sources */,
 				E5174C961C8F8B670016275A /* LoginSignupViewController.swift in Sources */,
